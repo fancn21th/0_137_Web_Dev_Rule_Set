@@ -1,2 +1,12 @@
-@import "scss/base/base";
-@import "scss/layout/layout";
+/*------------------------------------*\
+    #ABSTRACTS
+\*------------------------------------*/
+@import "scss/abstracts/variables";
+@import "scss/abstracts/mixins";
+@import "scss/abstracts/colors";
+
+/*------------------------------------*\
+    #BASE
+\*------------------------------------*/
+@import "scss/base/reset";
+@import "scss/base/body";
